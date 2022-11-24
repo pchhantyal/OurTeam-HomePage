@@ -1,0 +1,41 @@
+body {
+  font-family: "JosefinSans", sans-serif;
+}
+
+.Wrapper {
+  margin-top: 5%;
+  width: 100%;
+  height: 600px;
+}
+.Wrapper h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.Team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+.Team .TeamMember {
+  background: rosybrown;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+}
+.Team .TeamMember h2 {
+  color: black;
+  font-size: 26px;
+  margin-top: 10px;
+}
+.Team .TeamMember p.role {
+  color: black;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 4px 0;
+}
+.TeamMember img {
+  height: 200px;
+}
